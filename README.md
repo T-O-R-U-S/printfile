@@ -67,7 +67,7 @@ f  || src/main.rs
 **Warning: This remains untested. Use at your own discretion, as I am not held liable for what happens to you/your system**
 ###### Making a backup is recommended!
 
-Run `curl https://pastebin.com/raw/gwS1d8Hb -sSf | sh`. 
+Run `curl https://pastebin.com/raw/ty7ZaxX0 -sSf | sh`. 
 This script compiles and moves the printfile executable into /usr/bin.
 You can now execute printfile with `pf`.
 
