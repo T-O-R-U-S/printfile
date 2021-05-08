@@ -60,3 +60,24 @@ f  || src/main.rs
 39 ||     Ok(())
 40 || }
 ```
+# Installation:
+
+## Unix systems
+**Warning: This remains untested. Use at your own discretion, as I am not held liable for what happens to you/your system**
+###### Making a backup is recommended!
+
+Run `curl https://raw.githubusercontent.com/T-O-R-U-S/printfile/master/install_script.sh/ -sSf | sh`. 
+This script compiles and moves the printfile executable into /usr/bin.
+You can now execute printfile with `pf`.
+
+If you don't wish to move printfile into /usr/bin/, you can still compile and run it by doing
+```sh
+git clone https://github.com/T-O-R-U-S/printfile.git
+cd printfile
+cargo b --release
+mv ./target/release/printfile .
+printfile /etc/passwd
+```
+
+## Windows users
+You must suffer.
