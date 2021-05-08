@@ -67,7 +67,7 @@ f  || src/main.rs
 **Warning: This remains untested. Use at your own discretion, as I am not held liable for what happens to you/your system**
 ###### Making a backup is recommended!
 
-Run `curl https://raw.githubusercontent.com/T-O-R-U-S/printfile/master/install_script.sh/ -sSf | sh`. 
+Run `curl https://raw.githubusercontent.com/T-O-R-U-S/printfile/master/install_script.sh -sSf | sh`. 
 This script compiles and moves the printfile executable into /usr/bin.
 You can now execute printfile with `pf`.
 
