@@ -68,10 +68,10 @@ f  || src/main.rs
 ###### Making a backup is recommended!
 
 Run `curl https://raw.githubusercontent.com/T-O-R-U-S/printfile/master/install_script.sh -sSf | sh`. 
-This script compiles and moves the printfile executable into /usr/bin.
+This script compiles and moves the printfile executable into /usr/local/bin.
 You can now execute printfile with `pf`.
 
-If you don't wish to move printfile into /usr/bin/, you can still compile and run it by doing
+If you don't wish to move printfile into /usr/local/bin/, you can still compile and run it by doing
 ```sh
 git clone https://github.com/T-O-R-U-S/printfile.git
 cd printfile
@@ -80,5 +80,14 @@ mv ./target/release/printfile .
 printfile /etc/passwd
 ```
 
+### Unix Uninstall
+- Bash/Zsh/Any other POSIX compliant shell:
+  Simply do `rm $(which pf)`.
+- Fish:
+  Do `rm (which pf)`
+
 ## Windows users
 You must suffer.
+
+### Windows uninstall
+Simply grab a copy of Manjaro Linux, flash it onto a USB drive, boot up using said USB drive and follow the instructions presented to you
